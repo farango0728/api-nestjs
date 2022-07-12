@@ -58,6 +58,19 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## El generador de código de NestJS
+
+```bash
+# Controllers
+$ nest g co controllers/categories --flat
+
+# CRUD
+$ nest g resource controllers/admins
+
+# test coverage
+$ npm run test:cov
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
