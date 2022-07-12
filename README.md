@@ -67,8 +67,11 @@ $ nest g co controllers/categories --flat
 # CRUD
 $ nest g resource controllers/admins
 
-# test coverage
-$ npm run test:cov
+# services
+$ nest g s services/products --flat
+
+#PIPE
+$ nest g pipe common/parse-int
 ```
 
 ## Support
